@@ -1,4 +1,14 @@
-// dustlib_k deterministic memory utilities.
+// File: memory.ds - This file is part of the DPL Toolchain
+// Copyright (c) 2026 Dust LLC, and Contributors
+// Description:
+//   dustlib_k deterministic memory utilities.
+//   Provides:
+//     - HEAP_BASE: Heap start address (16 MB)
+//     - HEAP_LIMIT: Heap limit (32 MB)
+//     - ALIGNMENT: Memory alignment (16 bytes)
+//     - alloc(): Allocate memory
+//     - free(): Free memory
+//   Kernel-safe memory management for bare-metal systems.
 
 forge DustlibKMemory {
 

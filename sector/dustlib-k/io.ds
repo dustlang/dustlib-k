@@ -1,4 +1,14 @@
-// dustlib_k deterministic io utilities.
+// File: io.ds - This file is part of the DPL Toolchain
+// Copyright (c) 2026 Dust LLC, and Contributors
+// Description:
+//   dustlib_k deterministic I/O utilities.
+//   Provides:
+//     - IO_OK, IO_ERR constants
+//     - file_open(): Open file
+//     - file_read(), file_write(): File I/O
+//     - file_close(): Close file
+//     - console_putchar(): Console output
+//   Deterministic I/O for real-time systems.
 
 forge DustlibKIo {
 

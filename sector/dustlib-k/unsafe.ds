@@ -1,4 +1,13 @@
-// dustlib_k unsafe operation wrappers.
+// File: unsafe.ds - This file is part of the DPL Toolchain
+// Copyright (c) 2026 Dust LLC, and Contributors
+// Description:
+//   dustlib_k unsafe operation wrappers.
+//   Provides:
+//     - UNSAFE_ALLOWED, UNSAFE_DENIED constants
+//     - block(): Execute unsafe block with capability check
+//     - read_raw(), write_raw(): Raw memory operations
+//     - virt_to_phys(): Virtual to physical address translation
+//   Unsafe operations for kernel development with capability checking.
 
 forge DustlibKUnsafe {
 

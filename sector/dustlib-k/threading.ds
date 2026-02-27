@@ -1,4 +1,14 @@
-// dustlib_k deterministic threading facade.
+// File: threading.ds - This file is part of the DPL Toolchain
+// Copyright (c) 2026 Dust LLC, and Contributors
+// Description:
+//   dustlib_k deterministic threading facade.
+//   Provides:
+//     - MAX_THREADS: Maximum concurrent threads (256)
+//     - DEFAULT_STACK: Default stack size (8192 bytes)
+//     - spawn(): Create new thread
+//     - yield(): Yield execution to another thread
+//     - join(): Wait for thread completion
+//   Deterministic threading for real-time systems.
 
 forge DustlibKThreading {
 

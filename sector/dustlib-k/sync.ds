@@ -1,4 +1,14 @@
-// dustlib_k synchronization helpers.
+// File: sync.ds - This file is part of the DPL Toolchain
+// Copyright (c) 2026 Dust LLC, and Contributors
+// Description:
+//   dustlib_k synchronization helpers.
+//   Provides:
+//     - LOCK_FREE, LOCK_HELD constants
+//     - new_mutex(): Create mutex
+//     - lock(), unlock(): Mutex operations
+//     - new_semaphore(): Create semaphore
+//     - signal(), wait(): Semaphore operations
+//   Deterministic synchronization for real-time systems.
 
 forge DustlibKSync {
 

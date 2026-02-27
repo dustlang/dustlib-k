@@ -1,4 +1,12 @@
-// dustlib_k top-level forge.
+// File: lib.ds - This file is part of the DPL Toolchain
+// Copyright (c) 2026 Dust LLC, and Contributors
+// Description:
+//   dustlib_k top-level forge.
+//   Provides:
+//     - ABI_REVISION: Current ABI version (3)
+//     - init(): Library initialization
+//     - self_test(): Self-test for basic functionality
+//   Kernel-safe utilities for bare-metal Dust programs.
 
 forge DustlibK {
 
